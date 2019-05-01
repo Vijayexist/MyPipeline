@@ -12,7 +12,7 @@ node {
          * docker build on the command line */
 echo 'HELLO VIJAY BUILD STARTED'
        
-    
+    app=docker.build('Vijayexist/MyPipeline')
         echo 'HELLO IVJAY BUILD COMPLETED'
     }
 
