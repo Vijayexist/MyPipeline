@@ -10,8 +10,9 @@ node {
     stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-
+echo 'HELLO VIJAY BUILD STARTED'
         app = docker.build("getintodevops/hellonode")
+        echo 'HELLO IVJAY BUILD COMPLETED'
     }
 
    
