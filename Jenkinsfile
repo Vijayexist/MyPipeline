@@ -8,12 +8,7 @@ node {
     }
 
     stage('Build image') {
-        agent {
-                docker { image 'node:7-alpine' }
-            }
-            steps {
-                sh 'node --version'
-            }
+        app=docker.build('Vijayexist/MyPipeline')
     }
 
    
