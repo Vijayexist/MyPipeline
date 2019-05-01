@@ -11,7 +11,8 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 echo 'HELLO VIJAY BUILD STARTED'
-        app = docker.build("Vijayexist/MyPipeline")
+        echo docker
+        app = docker.build("Vijayexiskjknjkjkljkljkljkjkjt/MyPipeline")
         echo 'HELLO IVJAY BUILD COMPLETED'
     }
 
